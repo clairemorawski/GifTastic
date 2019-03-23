@@ -1,0 +1,114 @@
+body {
+	margin-top: 75px;
+	margin-bottom: 75px;
+    background: black;
+	text-align: center;
+	font-family: 'Suez One', serif;
+	text-transform: uppercase;
+}
+
+.container {
+	width: ;
+}
+
+h1 {
+	font-family: 'Suez One', serif;
+	font-size: 55px;
+	color: #fff;
+}
+
+h3 {
+	font-family: 'Suez One', serif;
+	font-size: 15px;
+	color: #fff;
+}
+
+form {
+	color: white;
+}
+
+#buttonsView {
+	display: inline;
+}
+
+
+.gifs {
+	display: inline;
+}
+
+#gifsView {
+	display: inline;
+	margin-bottom: 40px;
+}
+
+.gif {
+	cursor: crosshair;
+}
+
+img.squiggle {
+	top:0;
+	left:0;
+}
+
+#show-form {
+	display: inline;
+}
+
+ /* button {
+	background: #fff;
+	margin: 5px;
+	font-family: 'Suez One', serif;
+	color: white;
+} */
+
+ button {
+	border: none;
+	background-color: white;
+	font-family: 'Suez One', serif;
+	/*color: white;*/
+	padding: 5px 32px;
+	margin: 5px;
+	text-align: center;
+	display: inline-block;
+	font-size: 18px;
+}
+
+button:hover {
+	background-color: silver;
+}
+
+textarea:focus {
+  border-bottom: 2px solid #fff;
+  -webkit-box-shadow: 0 2px 0 0 #fff;
+  -moz-box-shadow: 0 2px 0 0 #fff;
+  box-shadow: 0 2px 0 0 #fff;
+}
+
+.waves-effect {
+	top: 15px;
+}
+
+/* Border */
+#top, 
+#bottom, 
+#left, 
+#right {
+	background: #fff;
+	position: fixed;
+}
+
+#left, 
+#right {
+	top: 0; bottom: 0;
+	width: 15px;
+}
+	#left { left: 0; }
+	#right { right: 0; }
+
+#top, 
+#bottom {
+	left: 0; right: 0;
+	height: 15px;
+}
+	#top { top: 0; }
+	#bottom { bottom: 0; }
